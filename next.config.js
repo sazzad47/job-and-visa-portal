@@ -1,6 +1,6 @@
 module.exports = {
     env: {
-      "BASE_URL": process.env.NODE_ENV==='production'? "https://job-visa.herokuapp.com": "http://localhost:3000",
+      "BASE_URL": process.env.NODE_ENV==='production'? "https://job-and-visa-portal-sazzad47.vercel.app": "http://localhost:3000",
       "MONGODB_URL": process.env.MONGODB_URL,
       "ACCESS_TOKEN_SECRET": process.env.ACCESS_TOKEN_SECRET,
       "REFRESH_TOKEN_SECRET": process.env.REFRESH_TOKEN_SECRET,
