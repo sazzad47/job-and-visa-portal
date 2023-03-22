@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="footer_container">
+      <div>
         <div className="row">
           <div className="footer-col">
             <h4>company</h4>
@@ -111,6 +111,12 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <div style={{color: "white", display: "flex", justifyContent: "center"}}>
+          <p>
+
+           Desinged and developed by Sazzad Hossen
+          </p>
+          </div>
       </div>
     </footer>
   );
